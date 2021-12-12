@@ -9,8 +9,8 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-            Viewpager.adapter = PagerAdapter(supportFragmentManager,2)
-
+        Viewpager.adapter = PagerAdapter(supportFragmentManager, 2)
 
 
     }
+}
